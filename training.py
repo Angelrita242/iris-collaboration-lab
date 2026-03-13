@@ -16,7 +16,7 @@ def train_model(data):
         X, y, test_size=0.2, random_state=42
     )
 
-    model = RandomForestClassifier(n_estimators=150, max_depth=10, random_state=42)
+    model = RandomForestClassifier(n_estimators=250, max_depth=15, random_state=42)
 
     model.fit(X_train, y_train)
 
